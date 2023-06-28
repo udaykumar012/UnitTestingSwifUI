@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7ECDC1C2A4AFD2100AEFA0B /* BankModelCodeCoverageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ECDC1B2A4AFD2100AEFA0B /* BankModelCodeCoverageApp.swift */; };
+		A7ECDC1E2A4AFD2100AEFA0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ECDC1D2A4AFD2100AEFA0B /* ContentView.swift */; };
+		A7ECDC202A4AFD2200AEFA0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7ECDC1F2A4AFD2200AEFA0B /* Assets.xcassets */; };
+		A7ECDC232A4AFD2200AEFA0B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7ECDC222A4AFD2200AEFA0B /* Preview Assets.xcassets */; };
+		A7ECDC302A4AFDCD00AEFA0B /* BankModelCodeCoverageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ECDC2F2A4AFDCD00AEFA0B /* BankModelCodeCoverageTests.swift */; };
+		A7ECDC372A4AFDF700AEFA0B /* BankModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ECDC362A4AFDF700AEFA0B /* BankModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7ECDC312A4AFDCD00AEFA0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7ECDC102A4AFD2100AEFA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7ECDC172A4AFD2100AEFA0B;
+			remoteInfo = BankModelCodeCoverage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7ECDC182A4AFD2100AEFA0B /* BankModelCodeCoverage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankModelCodeCoverage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7ECDC1B2A4AFD2100AEFA0B /* BankModelCodeCoverageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankModelCodeCoverageApp.swift; sourceTree = "<group>"; };
+		A7ECDC1D2A4AFD2100AEFA0B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A7ECDC1F2A4AFD2200AEFA0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7ECDC222A4AFD2200AEFA0B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A7ECDC2D2A4AFDCD00AEFA0B /* BankModelCodeCoverageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankModelCodeCoverageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7ECDC2F2A4AFDCD00AEFA0B /* BankModelCodeCoverageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankModelCodeCoverageTests.swift; sourceTree = "<group>"; };
+		A7ECDC362A4AFDF700AEFA0B /* BankModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankModel.swift; sourceTree = "<group>"; };
+		A7ECDC392A4B03F800AEFA0B /* BankModelCodeCoverage.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = BankModelCodeCoverage.xctestplan; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7ECDC152A4AFD2100AEFA0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7ECDC2A2A4AFDCD00AEFA0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7ECDC0F2A4AFD2100AEFA0B = {
+			isa = PBXGroup;
+			children = (
+				A7ECDC392A4B03F800AEFA0B /* BankModelCodeCoverage.xctestplan */,
+				A7ECDC1A2A4AFD2100AEFA0B /* BankModelCodeCoverage */,
+				A7ECDC2E2A4AFDCD00AEFA0B /* BankModelCodeCoverageTests */,
+				A7ECDC192A4AFD2100AEFA0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7ECDC192A4AFD2100AEFA0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7ECDC182A4AFD2100AEFA0B /* BankModelCodeCoverage.app */,
+				A7ECDC2D2A4AFDCD00AEFA0B /* BankModelCodeCoverageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7ECDC1A2A4AFD2100AEFA0B /* BankModelCodeCoverage */ = {
+			isa = PBXGroup;
+			children = (
+				A7ECDC1B2A4AFD2100AEFA0B /* BankModelCodeCoverageApp.swift */,
+				A7ECDC1D2A4AFD2100AEFA0B /* ContentView.swift */,
+				A7ECDC1F2A4AFD2200AEFA0B /* Assets.xcassets */,
+				A7ECDC362A4AFDF700AEFA0B /* BankModel.swift */,
+				A7ECDC212A4AFD2200AEFA0B /* Preview Content */,
+			);
+			path = BankModelCodeCoverage;
+			sourceTree = "<group>";
+		};
+		A7ECDC212A4AFD2200AEFA0B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A7ECDC222A4AFD2200AEFA0B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A7ECDC2E2A4AFDCD00AEFA0B /* BankModelCodeCoverageTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7ECDC2F2A4AFDCD00AEFA0B /* BankModelCodeCoverageTests.swift */,
+			);
+			path = BankModelCodeCoverageTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7ECDC172A4AFD2100AEFA0B /* BankModelCodeCoverage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7ECDC262A4AFD2200AEFA0B /* Build configuration list for PBXNativeTarget "BankModelCodeCoverage" */;
+			buildPhases = (
+				A7ECDC142A4AFD2100AEFA0B /* Sources */,
+				A7ECDC152A4AFD2100AEFA0B /* Frameworks */,
+				A7ECDC162A4AFD2100AEFA0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BankModelCodeCoverage;
+			productName = BankModelCodeCoverage;
+			productReference = A7ECDC182A4AFD2100AEFA0B /* BankModelCodeCoverage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7ECDC2C2A4AFDCD00AEFA0B /* BankModelCodeCoverageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7ECDC332A4AFDCD00AEFA0B /* Build configuration list for PBXNativeTarget "BankModelCodeCoverageTests" */;
+			buildPhases = (
+				A7ECDC292A4AFDCD00AEFA0B /* Sources */,
+				A7ECDC2A2A4AFDCD00AEFA0B /* Frameworks */,
+				A7ECDC2B2A4AFDCD00AEFA0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7ECDC322A4AFDCD00AEFA0B /* PBXTargetDependency */,
+			);
+			name = BankModelCodeCoverageTests;
+			productName = BankModelCodeCoverageTests;
+			productReference = A7ECDC2D2A4AFDCD00AEFA0B /* BankModelCodeCoverageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7ECDC102A4AFD2100AEFA0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A7ECDC172A4AFD2100AEFA0B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					A7ECDC2C2A4AFDCD00AEFA0B = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = A7ECDC172A4AFD2100AEFA0B;
+					};
+				};
+			};
+			buildConfigurationList = A7ECDC132A4AFD2100AEFA0B /* Build configuration list for PBXProject "BankModelCodeCoverage" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7ECDC0F2A4AFD2100AEFA0B;
+			productRefGroup = A7ECDC192A4AFD2100AEFA0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7ECDC172A4AFD2100AEFA0B /* BankModelCodeCoverage */,
+				A7ECDC2C2A4AFDCD00AEFA0B /* BankModelCodeCoverageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7ECDC162A4AFD2100AEFA0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7ECDC232A4AFD2200AEFA0B /* Preview Assets.xcassets in Resources */,
+				A7ECDC202A4AFD2200AEFA0B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7ECDC2B2A4AFDCD00AEFA0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7ECDC142A4AFD2100AEFA0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7ECDC1E2A4AFD2100AEFA0B /* ContentView.swift in Sources */,
+				A7ECDC372A4AFDF700AEFA0B /* BankModel.swift in Sources */,
+				A7ECDC1C2A4AFD2100AEFA0B /* BankModelCodeCoverageApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7ECDC292A4AFDCD00AEFA0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7ECDC302A4AFDCD00AEFA0B /* BankModelCodeCoverageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7ECDC322A4AFDCD00AEFA0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7ECDC172A4AFD2100AEFA0B /* BankModelCodeCoverage */;
+			targetProxy = A7ECDC312A4AFDCD00AEFA0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A7ECDC242A4AFD2200AEFA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7ECDC252A4AFD2200AEFA0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7ECDC272A4AFD2200AEFA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BankModelCodeCoverage/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.uk.BankModelCodeCoverage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7ECDC282A4AFD2200AEFA0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BankModelCodeCoverage/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.uk.BankModelCodeCoverage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A7ECDC342A4AFDCD00AEFA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.uk.BankModelCodeCoverageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BankModelCodeCoverage.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BankModelCodeCoverage";
+			};
+			name = Debug;
+		};
+		A7ECDC352A4AFDCD00AEFA0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.uk.BankModelCodeCoverageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BankModelCodeCoverage.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BankModelCodeCoverage";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7ECDC132A4AFD2100AEFA0B /* Build configuration list for PBXProject "BankModelCodeCoverage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7ECDC242A4AFD2200AEFA0B /* Debug */,
+				A7ECDC252A4AFD2200AEFA0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7ECDC262A4AFD2200AEFA0B /* Build configuration list for PBXNativeTarget "BankModelCodeCoverage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7ECDC272A4AFD2200AEFA0B /* Debug */,
+				A7ECDC282A4AFD2200AEFA0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7ECDC332A4AFDCD00AEFA0B /* Build configuration list for PBXNativeTarget "BankModelCodeCoverageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7ECDC342A4AFDCD00AEFA0B /* Debug */,
+				A7ECDC352A4AFDCD00AEFA0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7ECDC102A4AFD2100AEFA0B /* Project object */;
+}

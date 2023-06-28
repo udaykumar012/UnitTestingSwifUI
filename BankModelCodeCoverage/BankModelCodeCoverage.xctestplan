@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "4CEC3247-7421-44B7-A255-4C479FE0B350",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:BankModelCodeCoverage.xcodeproj",
+      "identifier" : "A7ECDC172A4AFD2100AEFA0B",
+      "name" : "BankModelCodeCoverage"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:BankModelCodeCoverage.xcodeproj",
+        "identifier" : "A7ECDC2C2A4AFDCD00AEFA0B",
+        "name" : "BankModelCodeCoverageTests"
+      }
+    }
+  ],
+  "version" : 1
+}
