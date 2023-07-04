@@ -17,6 +17,14 @@
 		A7A8BF542A4DE0D0009E95DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A8BF532A4DE0D0009E95DC /* ContentView.swift */; };
 		A7A8BF562A4DE0D1009E95DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7A8BF552A4DE0D1009E95DC /* Assets.xcassets */; };
 		A7A8BF592A4DE0D1009E95DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7A8BF582A4DE0D1009E95DC /* Preview Assets.xcassets */; };
+		A7BA4C702A528C0D00DE7FDC /* MockWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BA4C6F2A528C0D00DE7FDC /* MockWebService.swift */; };
+		A7BA4C722A528C9100DE7FDC /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74227D02A4DE50600A76530 /* WebService.swift */; };
+		A7BA4C772A540A5400DE7FDC /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74227D92A4DE69700A76530 /* LoginViewModel.swift */; };
+		A7BA4C7D2A540CAE00DE7FDC /* NetworkServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BA4C742A54077300DE7FDC /* NetworkServiceFactory.swift */; };
+		A7BA4C7E2A540DD000DE7FDC /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74227D62A4DE5C000A76530 /* LoginResponse.swift */; };
+		A7BA4C802A5473EE00DE7FDC /* NetworkServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BA4C742A54077300DE7FDC /* NetworkServiceFactory.swift */; };
+		A7BA4C812A54740B00DE7FDC /* MockWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BA4C6F2A528C0D00DE7FDC /* MockWebService.swift */; };
+		A7BA4C842A54783D00DE7FDC /* LoginPageObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BA4C832A54783D00DE7FDC /* LoginPageObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +50,9 @@
 		A7A8BF532A4DE0D0009E95DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A7A8BF552A4DE0D1009E95DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7A8BF582A4DE0D1009E95DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A7BA4C6F2A528C0D00DE7FDC /* MockWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockWebService.swift; sourceTree = "<group>"; };
+		A7BA4C742A54077300DE7FDC /* NetworkServiceFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceFactory.swift; sourceTree = "<group>"; };
+		A7BA4C832A54783D00DE7FDC /* LoginPageObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +109,10 @@
 		A74227E02A4EBEA400A76530 /* Login_MockingTestUITests */ = {
 			isa = PBXGroup;
 			children = (
-				A74227E12A4EBEA400A76530 /* Login_MockingTestUITests.swift */,
+				A7BA4C822A54782800DE7FDC /* PageObject */,
 				A74227E32A4EBEA400A76530 /* Login_MockingTestUITestsLaunchTests.swift */,
+				A74227E12A4EBEA400A76530 /* Login_MockingTestUITests.swift */,
+				A7BA4C6E2A528B0900DE7FDC /* Mocks */,
 			);
 			path = Login_MockingTestUITests;
 			sourceTree = "<group>";
@@ -125,8 +138,9 @@
 		A7A8BF502A4DE0D0009E95DC /* Login_MockingTest */ = {
 			isa = PBXGroup;
 			children = (
-				A74227D82A4DE67B00A76530 /* ViewModel */,
 				A7A8BF512A4DE0D0009E95DC /* Login_MockingTestApp.swift */,
+				A7BA4C732A54070900DE7FDC /* factories */,
+				A74227D82A4DE67B00A76530 /* ViewModel */,
 				A7A8BF552A4DE0D1009E95DC /* Assets.xcassets */,
 				A74227D22A4DE53A00A76530 /* Views */,
 				A74227CF2A4DE4EA00A76530 /* Services */,
@@ -142,6 +156,30 @@
 				A7A8BF582A4DE0D1009E95DC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A7BA4C6E2A528B0900DE7FDC /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				A7BA4C6F2A528C0D00DE7FDC /* MockWebService.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		A7BA4C732A54070900DE7FDC /* factories */ = {
+			isa = PBXGroup;
+			children = (
+				A7BA4C742A54077300DE7FDC /* NetworkServiceFactory.swift */,
+			);
+			path = factories;
+			sourceTree = "<group>";
+		};
+		A7BA4C822A54782800DE7FDC /* PageObject */ = {
+			isa = PBXGroup;
+			children = (
+				A7BA4C832A54783D00DE7FDC /* LoginPageObject.swift */,
+			);
+			path = PageObject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,7 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7BA4C842A54783D00DE7FDC /* LoginPageObject.swift in Sources */,
+				A7BA4C702A528C0D00DE7FDC /* MockWebService.swift in Sources */,
 				A74227E22A4EBEA400A76530 /* Login_MockingTestUITests.swift in Sources */,
+				A7BA4C7E2A540DD000DE7FDC /* LoginResponse.swift in Sources */,
+				A7BA4C772A540A5400DE7FDC /* LoginViewModel.swift in Sources */,
+				A7BA4C802A5473EE00DE7FDC /* NetworkServiceFactory.swift in Sources */,
+				A7BA4C722A528C9100DE7FDC /* WebService.swift in Sources */,
 				A74227E42A4EBEA400A76530 /* Login_MockingTestUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +297,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7BA4C812A54740B00DE7FDC /* MockWebService.swift in Sources */,
+				A7BA4C7D2A540CAE00DE7FDC /* NetworkServiceFactory.swift in Sources */,
 				A74227D12A4DE50600A76530 /* WebService.swift in Sources */,
 				A74227D42A4DE56300A76530 /* DashboardView.swift in Sources */,
 				A74227DA2A4DE69700A76530 /* LoginViewModel.swift in Sources */,
